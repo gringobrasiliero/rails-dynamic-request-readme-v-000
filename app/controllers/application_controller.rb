@@ -4,5 +4,5 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
 
-  get 'posts/:id', to: 'posts#show'
+  get '/posts/:id', to: 'posts#show'
 end
